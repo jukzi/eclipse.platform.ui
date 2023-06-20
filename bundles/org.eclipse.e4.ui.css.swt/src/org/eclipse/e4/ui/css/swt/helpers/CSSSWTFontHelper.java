@@ -258,7 +258,7 @@ public class CSSSWTFontHelper {
 		CSSPrimitiveValue cssFontWeight = fontProperties.getWeight();
 		if (cssFontWeight != null) {
 			String weight = cssFontWeight.getStringValue();
-			if ("bold".equals(weight.toLowerCase())) {
+			if ("bold".equalsIgnoreCase(weight)) {
 				fontStyle = fontStyle | SWT.BOLD;
 			} else if (fontStyle == (fontStyle | SWT.BOLD)) {
 				fontStyle = fontStyle ^ SWT.BOLD;
