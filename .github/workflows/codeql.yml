@@ -88,9 +88,9 @@ jobs:
         -ntp
         -Dcompare-version-with-baselines.skip=true
         -Pbree-libs
-        -Papi-check
+        -DskipTests=true
         --fail-at-end
-        clean verify -DskipTests=true
+        clean verify
     #-------------------------
 
     # ℹ️ Command-line programs to run using the OS shell.
