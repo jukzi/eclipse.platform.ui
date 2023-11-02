@@ -149,9 +149,10 @@ public class FileStatesPage extends PreferencePage implements
 		setErrorMessage(null);
 	}
 
-	/*
+	/**
 	 * Create the contents control for the workspace file states.
-	 * @returns Control
+	 *
+	 * @return Control
 	 * @param parent Composite
 	 */
 	@Override
