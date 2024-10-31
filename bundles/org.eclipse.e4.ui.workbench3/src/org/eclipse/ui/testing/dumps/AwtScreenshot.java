@@ -31,6 +31,7 @@ public class AwtScreenshot {
 
 	public static void main(String[] args) {
 		try {
+			// touch
 			System.setProperty("java.awt.headless", "false");
 			Robot robot= new Robot();
 			Rectangle rect= new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
